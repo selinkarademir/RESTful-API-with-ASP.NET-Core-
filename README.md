@@ -1,3 +1,13 @@
 # RESTful-API-with-ASP.NET-Core-
-This project shows the communication between the client and server accomplished by using HTTP methods such as POST and GET to request movie data from the pgSQL database. Tools such as Postman and SwaggerUI were used while developing this project.
+ Creating the movie database on pgSQL for the project
+Creating entities within the database and their attributes (refer to page 11 )
+Creating a connection between the database and the .NET Core through NPGcontext.cs
+Discussing why there’s also a need for interface repository other than a base repository
+Showing HTTP methods in MoviesController.cs
+HTTP methods response body shown both on SwaggerUI and Postman 
+Preferring POST over GET and its’ reasons
+Using LINQ to link different classes id’s together 
+Using LINQ rather than SQL for more productivity (ex. using LINQ instead of SQL WHERE clause)
+
+
 
